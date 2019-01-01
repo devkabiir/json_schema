@@ -4,7 +4,7 @@ version: 2.0.0
 authors:
   - Michael Carter <michael.carter@workiva.com>
   - Daniel Davidson <dbdavidson@yahoo.com>
-  
+  - Dinesh Ahuja <dev@kabiir.me>
 homepage: https://github.com/workiva/json_schema
 description: >
   Provide support for validating instances against json schema

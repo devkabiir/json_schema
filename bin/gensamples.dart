@@ -39,9 +39,9 @@
 import 'dart:io';
 
 import 'package:path/path.dart';
-import 'package:json_schema/json_schema.dart';
-import 'package:json_schema/vm.dart';
-import 'package:json_schema/schema_dot.dart';
+import 'package:json_schema_dart2/json_schema.dart';
+import 'package:json_schema_dart2/vm.dart';
+import 'package:json_schema_dart2/schema_dot.dart';
 
 main() {
   configureJsonSchemaForVm();

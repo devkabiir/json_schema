@@ -20,7 +20,7 @@ After creating any schema, JSON instances can be validated by calling `.validate
 A schema can be created with a Map that is either hand-crafted, referenced from a JSON file, or *previously* fetched from the network or file system.
 
 ```dart
-import 'package:json_schema/json_schema.dart';
+import 'package:json_schema_dart2/json_schema.dart';
 
 main() {
   /// Define schema in a Dart [Map] or use a JSON [String].
@@ -47,7 +47,7 @@ If you want to create `JsonSchema`s synchronously, and you have $refs that canno
 #### Example
 
 ```dart 
-import 'package:json_schema/json_schema.dart';
+import 'package:json_schema_dart2/json_schema.dart';
 import 'package:dart2_constant/convert.dart';
 
 main() {
@@ -122,13 +122,13 @@ If you have schemas that have nested $refs that are HTTP URIs that are publicly 
 ```dart
 import 'dart:io';
 
-import 'package:json_schema/json_schema.dart';
+import 'package:json_schema_dart2/json_schema.dart';
 
 // For VM:
-import 'package:json_schema/vm.dart';
+import 'package:json_schema_dart2/vm.dart';
 
 // For Browser:
-// import 'package:json_schema/browser.dart';
+// import 'package:json_schema_dart2/browser.dart';
 
 main() async {
   // For VM:
@@ -170,13 +170,13 @@ You can also create a schema directly from a publicly accessible URL, like so:
 ```dart
 import 'dart:io';
 
-import 'package:json_schema/json_schema.dart';
+import 'package:json_schema_dart2/json_schema.dart';
 
 // For VM:
-import 'package:json_schema/vm.dart';
+import 'package:json_schema_dart2/vm.dart';
 
 // For Browser:
-// import 'package:json_schema/browser.dart';
+// import 'package:json_schema_dart2/browser.dart';
 
 main() async {
   // For VM:
@@ -208,13 +208,13 @@ main() async {
 ```dart
 import 'dart:io';
 
-import 'package:json_schema/json_schema.dart';
+import 'package:json_schema_dart2/json_schema.dart';
 
 // For VM:
-import 'package:json_schema/vm.dart';
+import 'package:json_schema_dart2/vm.dart';
 
 // For Browser:
-// import 'package:json_schema/browser.dart';
+// import 'package:json_schema_dart2/browser.dart';
 
 main() async {
   // For VM:
@@ -257,13 +257,13 @@ import 'dart:io';
 import 'dart:async';
 import 'package:dart2_constant/convert.dart';
 
-import 'package:json_schema/json_schema.dart';
+import 'package:json_schema_dart2/json_schema.dart';
 
 // For VM:
-import 'package:json_schema/vm.dart';
+import 'package:json_schema_dart2/vm.dart';
 
 // For Browser:
-// import 'package:json_schema/browser.dart';
+// import 'package:json_schema_dart2/browser.dart';
 
 main() async {
   // For VM:

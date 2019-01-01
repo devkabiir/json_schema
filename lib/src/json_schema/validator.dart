@@ -39,11 +39,11 @@
 import 'package:dart2_constant/convert.dart';
 import 'dart:math';
 
-import 'package:json_schema/src/json_schema/constants.dart';
-import 'package:json_schema/src/json_schema/json_schema.dart';
-import 'package:json_schema/src/json_schema/schema_type.dart';
-import 'package:json_schema/src/json_schema/utils.dart';
-import 'package:json_schema/src/json_schema/global_platform_functions.dart' show defaultValidators;
+import 'package:json_schema_dart2/src/json_schema/constants.dart';
+import 'package:json_schema_dart2/src/json_schema/json_schema.dart';
+import 'package:json_schema_dart2/src/json_schema/schema_type.dart';
+import 'package:json_schema_dart2/src/json_schema/utils.dart';
+import 'package:json_schema_dart2/src/json_schema/global_platform_functions.dart' show defaultValidators;
 
 /// Initialized with schema, validates instances against it
 class Validator {

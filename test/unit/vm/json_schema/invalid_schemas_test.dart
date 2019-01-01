@@ -45,8 +45,8 @@ import 'package:logging/logging.dart';
 import 'package:path/path.dart' as path;
 import 'package:test/test.dart';
 
-import 'package:json_schema/json_schema.dart';
-import 'package:json_schema/vm.dart';
+import 'package:json_schema_dart2/json_schema.dart';
+import 'package:json_schema_dart2/vm.dart';
 
 final Logger _logger = new Logger('test_invalid_schemas');
 

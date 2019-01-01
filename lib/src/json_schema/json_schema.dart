@@ -41,14 +41,14 @@ import 'package:dart2_constant/convert.dart';
 
 import 'package:path/path.dart' as path_lib;
 
-import 'package:json_schema/src/json_schema/constants.dart';
-import 'package:json_schema/src/json_schema/format_exceptions.dart';
-import 'package:json_schema/src/json_schema/global_platform_functions.dart';
-import 'package:json_schema/src/json_schema/schema_type.dart';
-import 'package:json_schema/src/json_schema/type_validators.dart';
-import 'package:json_schema/src/json_schema/utils.dart';
-import 'package:json_schema/src/json_schema/validator.dart';
-import 'package:json_schema/src/json_schema/typedefs.dart';
+import 'package:json_schema_dart2/src/json_schema/constants.dart';
+import 'package:json_schema_dart2/src/json_schema/format_exceptions.dart';
+import 'package:json_schema_dart2/src/json_schema/global_platform_functions.dart';
+import 'package:json_schema_dart2/src/json_schema/schema_type.dart';
+import 'package:json_schema_dart2/src/json_schema/type_validators.dart';
+import 'package:json_schema_dart2/src/json_schema/utils.dart';
+import 'package:json_schema_dart2/src/json_schema/validator.dart';
+import 'package:json_schema_dart2/src/json_schema/typedefs.dart';
 
 typedef dynamic SchemaPropertySetter(JsonSchema s, dynamic value);
 typedef SchemaAssigner(JsonSchema s);

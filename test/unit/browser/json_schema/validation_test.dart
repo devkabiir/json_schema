@@ -38,8 +38,8 @@
 
 library json_schema.test_validation;
 
-import 'package:json_schema/json_schema.dart';
-import 'package:json_schema/browser.dart';
+import 'package:json_schema_dart2/json_schema.dart';
+import 'package:json_schema_dart2/browser.dart';
 import 'package:logging/logging.dart';
 import 'package:test/test.dart';
 

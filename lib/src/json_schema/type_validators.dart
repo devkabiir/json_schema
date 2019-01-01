@@ -1,7 +1,7 @@
-import 'package:json_schema/src/json_schema/constants.dart';
-import 'package:json_schema/src/json_schema/format_exceptions.dart';
-import 'package:json_schema/src/json_schema/utils.dart';
-import 'package:json_schema/src/json_schema/schema_type.dart';
+import 'package:json_schema_dart2/src/json_schema/constants.dart';
+import 'package:json_schema_dart2/src/json_schema/format_exceptions.dart';
+import 'package:json_schema_dart2/src/json_schema/utils.dart';
+import 'package:json_schema_dart2/src/json_schema/schema_type.dart';
 
 class TypeValidators {
   static List list(String key, dynamic value) {

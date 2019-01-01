@@ -38,10 +38,10 @@
 
 library json_schema.vm;
 
-import 'package:json_schema/src/json_schema/global_platform_functions.dart';
-import 'package:json_schema/src/json_schema/vm/platform_functions.dart' show createSchemaFromUrlVm;
+import 'package:json_schema_dart2/src/json_schema/global_platform_functions.dart';
+import 'package:json_schema_dart2/src/json_schema/vm/platform_functions.dart' show createSchemaFromUrlVm;
 
-export 'package:json_schema/src/json_schema/vm/platform_functions.dart' show createSchemaFromUrlVm;
+export 'package:json_schema_dart2/src/json_schema/vm/platform_functions.dart' show createSchemaFromUrlVm;
 
 /// Configures json_schema for use in the browser via dart:html.
 void configureJsonSchemaForVm() {

@@ -36,9 +36,9 @@
 //     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //     THE SOFTWARE.
 
-import 'package:json_schema/json_schema.dart';
-import 'package:json_schema/src/json_schema/typedefs.dart';
-import 'package:json_schema/src/json_schema/utils.dart';
+import 'package:json_schema_dart2/json_schema.dart';
+import 'package:json_schema_dart2/src/json_schema/typedefs.dart';
+import 'package:json_schema_dart2/src/json_schema/utils.dart';
 
 /// The globally configured json shema class. Any json schema class that is not
 /// explicitly given a [JsonSchema] instance upon construction will

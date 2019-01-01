@@ -40,10 +40,10 @@ library json_schema.browser;
 
 import 'package:w_transport/browser.dart';
 
-import 'package:json_schema/src/json_schema/global_platform_functions.dart';
-import 'package:json_schema/src/json_schema/browser/platform_functions.dart' show createSchemaFromUrlBrowser;
+import 'package:json_schema_dart2/src/json_schema/global_platform_functions.dart';
+import 'package:json_schema_dart2/src/json_schema/browser/platform_functions.dart' show createSchemaFromUrlBrowser;
 
-export 'package:json_schema/src/json_schema/browser/platform_functions.dart' show createSchemaFromUrlBrowser;
+export 'package:json_schema_dart2/src/json_schema/browser/platform_functions.dart' show createSchemaFromUrlBrowser;
 
 /// Configures json_schema for use in the browser via dart:html.
 void configureJsonSchemaForBrowser() {

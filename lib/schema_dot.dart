@@ -39,7 +39,7 @@
 /// Functionality to create Graphviz input dot file from schema
 library json_schema.schema_dot;
 
-import 'package:json_schema/json_schema.dart';
+import 'package:json_schema_dart2/json_schema.dart';
 
 /// Represents one node in the schema diagram
 ///

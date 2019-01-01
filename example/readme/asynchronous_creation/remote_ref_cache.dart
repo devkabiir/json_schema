@@ -41,13 +41,13 @@ import 'dart:async';
 import 'package:dart2_constant/convert.dart';
 import 'dart:io';
 
-import 'package:json_schema/json_schema.dart';
+import 'package:json_schema_dart2/json_schema.dart';
 
 // For VM:
-import 'package:json_schema/vm.dart';
+import 'package:json_schema_dart2/vm.dart';
 
 // For Browser:
-// import 'package:json_schema/browser.dart';
+// import 'package:json_schema_dart2/browser.dart';
 
 main() async {
   // For VM:

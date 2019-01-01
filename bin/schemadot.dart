@@ -51,8 +51,8 @@ import 'dart:convert' as convert;
 import 'dart:io';
 
 import 'package:args/args.dart';
-import 'package:json_schema/json_schema.dart';
-import 'package:json_schema/schema_dot.dart';
+import 'package:json_schema_dart2/json_schema.dart';
+import 'package:json_schema_dart2/schema_dot.dart';
 import 'package:logging/logging.dart';
 
 //! The parser for this script

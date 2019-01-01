@@ -1,8 +1,15 @@
-# JSON Schema
+# JSON Schema (Forked)
 
   A *platform agnostic* (dart:html or dart:io) Dart library for validating JSON instances against JSON Schemas (multi-version support with latest of Draft 6).
 
-![Build Status](https://travis-ci.org/workiva/json_schema.svg)
+## Forked changes
+
+- Does not support `dart < 2.0.0`
+- Supports dart 2.0.0
+- Uses uri instead of uri_template
+- Package name changed to json_schema_dart2 (to allow publishing on pub)
+
+![Build Status](https://travis-ci.com/devkabiir/json_schema.svg)
 
 ## How To Create and Validate Against a Schema
   

@@ -5,7 +5,7 @@ authors:
   - Michael Carter <michael.carter@workiva.com>
   - Daniel Davidson <dbdavidson@yahoo.com>
   - Dinesh Ahuja <dev@kabiir.me>
-homepage: https://github.com/workiva/json_schema
+homepage: https://github.com/devkabiir/json_schema
 description: >
   Provide support for validating instances against json schema
 environment:

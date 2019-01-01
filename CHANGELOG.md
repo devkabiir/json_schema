@@ -1,3 +1,10 @@
+## 3.0.0
+
+* Does not support `dart < 2.0.0`
+* Supports dart 2.0.0
+* Uses uri instead of uri_template
+* Package name changed to json_schema_dart2 (to allow publishing on pub)
+
 ## 2.0.0
 
 * json_schema is no longer bound to dart:io and works in the browser!
